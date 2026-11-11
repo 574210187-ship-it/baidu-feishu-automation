@@ -1,0 +1,10 @@
+# baidu-feishu-automation crontab
+# 本机时钟是 Asia/Shanghai（UTC+8，与原 Windows CST 相同）。
+# 原计划任务：CST 00/04/08/12/16/20。因此这里也用这两个点。
+# 默认整行注释，登录完成前不会跑生产批次。
+SHELL=/bin/bash
+PATH=/usr/local/bin:/home/box/.local/bin:/usr/bin:/bin
+TZ=Asia/Shanghai
+CRON_TZ=Asia/Shanghai
+
+# baidu-feishu-batch: 0 0,4,8,12,16,20 * * * /workspace/baidu-feishu-automation/run-batch.sh

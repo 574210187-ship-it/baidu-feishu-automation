@@ -1,0 +1,15 @@
+{
+  "name": "baidu-feishu-automation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "control": "node scripts/baidu-feishu-control.mjs",
+    "inspect": "node scripts/baidu-feishu-control.mjs inspect --json",
+    "validate": "node scripts/baidu-feishu-control.mjs validate --json"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.34.0",
+    "playwright": "^1.62.1"
+  }
+}

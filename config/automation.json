@@ -1,0 +1,7 @@
+{
+  "_comment": "批次节奏与三表定义已统一到 config/tables.json（batchIntervalHours / transcriptWaitMinutes / tables[]），此处不再重复，避免双源漂移。本文件只保留「与具体表无关的共享项」：保活探测目录、共享下载目录、锁 TTL。activeBaiduDir/activeBaiduUrl 仅供 keepalive-baidu.mjs 与 ensure-baidu-cdp.mjs 的登录只读探测使用，取值 = zed 新目录。",
+  "activeBaiduDir": "/8月新录屏/zed已压缩",
+  "activeBaiduUrl": "https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all&path=%2F8%E6%9C%88%E6%96%B0%E5%BD%95%E5%B1%8F%2Fzed%E5%B7%B2%E5%8E%8B%E7%BC%A9",
+  "downloadDir": "/workspace/baidu-feishu-data/文稿",
+  "lockTtlMinutes": 180
+}

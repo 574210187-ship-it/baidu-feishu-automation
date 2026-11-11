@@ -1,0 +1,16 @@
+{
+  "larkCliPath": "/usr/local/bin/lark-cli",
+  "cdpPort": 9333,
+  "baiduProfileDir": "/workspace/baidu-feishu-data/chrome-profile",
+  "chromePath": "/usr/bin/google-chrome",
+  "chromeHeadless": true,
+  "dataDir": "/workspace/baidu-feishu-data",
+  "loginQrPath": "/workspace/baidu-feishu-data/state/baidu-login-qr.png",
+  "lastRunPath": "/workspace/baidu-feishu-data/state/last-run.json",
+  "reporterRoot": "/workspace/baidu-feishu-data/reporter-disabled",
+  "alertNodePath": "/usr/local/bin/node",
+  "sweepLockPath": "/workspace/baidu-feishu-data/state/sweep.lock",
+  "schedulerRoot": "/workspace/baidu-feishu-automation",
+  "activeBaiduDir": "/8月新录屏/zed已压缩",
+  "activeBaiduUrl": "https://pan.baidu.com/disk/main?from=homeFlow#/index?category=all&path=%2F8%E6%9C%88%E6%96%B0%E5%BD%95%E5%B1%8F%2Fzed%E5%B7%B2%E5%8E%8B%E7%BC%A9"
+}

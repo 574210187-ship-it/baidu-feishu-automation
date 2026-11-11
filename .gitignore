@@ -1,0 +1,13 @@
+# 运行时与登录数据，禁止提交
+node_modules/
+state/
+logs/
+*.log
+bin/supercronic
+baidu-login-qr.png
+chrome-profile/
+*.pem
+*.key
+
+# 数据目录如果被误放到仓库里
+/baidu-feishu-data/
